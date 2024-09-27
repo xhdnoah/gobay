@@ -169,7 +169,7 @@ require (
 replace (
 	entgo.io/ent => github.com/shanbay/ent v0.5.0
 	github.com/RichardKnop/machinery => github.com/shanbay/machinery v0.0.0-20240507084232-78bfb8c2e7b1
-	github.com/redis/go-redis/extra/rediscmd/v9 => github.com/shanbay/go-redis/extra/rediscmd/v9 v9.0.0-20240507070244-b33c23f16a06
-	github.com/redis/go-redis/extra/redisotel/v9 => github.com/shanbay/go-redis/extra/redisotel/v9 v9.0.0-20240507070244-b33c23f16a06
+	github.com/redis/go-redis/extra/rediscmd/v9 => github.com/xhdnoah/go-redis/extra/rediscmd/v9 v9.0.0-20240927022319-f63692a90485
+	github.com/redis/go-redis/extra/redisotel/v9 => github.com/xhdnoah/go-redis/extra/redisotel/v9 v9.0.0-20240927022319-f63692a90485
 	github.com/streadway/amqp => github.com/shanbay/amqp v1.0.1-0.20210728052407-b63250c049f2
 )
