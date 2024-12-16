@@ -608,10 +608,6 @@ github.com/shanbay/amqp v1.0.1-0.20210728052407-b63250c049f2 h1:fc3CZIsyZTW2mfv+
 github.com/shanbay/amqp v1.0.1-0.20210728052407-b63250c049f2/go.mod h1:AZpEONHx3DKn8O/DFsRAY58/XVQiIPMTMB1SddzLXVw=
 github.com/shanbay/ent v0.5.0 h1:J/QSzM14R+gxlhPdaqm2uFs3Y446xdpIzLYavGLRMvo=
 github.com/shanbay/ent v0.5.0/go.mod h1:ericBi6Q8l3wBH1wEIDfKxw7rcQEuRPyBfbIzjtxJ18=
-github.com/shanbay/go-redis/extra/rediscmd/v9 v9.0.0-20240507070244-b33c23f16a06 h1:/6w+WdQczhGDqpYLT9aAaY1+dMNW3UaZuFB6tJaVMJA=
-github.com/shanbay/go-redis/extra/rediscmd/v9 v9.0.0-20240507070244-b33c23f16a06/go.mod h1:SGzPYn+57aRi8pgnS/IauR64lWhJhgWqIZH6IIfgEBU=
-github.com/shanbay/go-redis/extra/redisotel/v9 v9.0.0-20240507070244-b33c23f16a06 h1:Uf/Nfgp5ysKE3WPc2/rGfpMkXJRUsIAE6RhrZFtmlwk=
-github.com/shanbay/go-redis/extra/redisotel/v9 v9.0.0-20240507070244-b33c23f16a06/go.mod h1:INDsEOD4QyPk6Pm4JXWZvuDiChhtZa7PN60RSXljsbc=
 github.com/shanbay/machinery v0.0.0-20240507084232-78bfb8c2e7b1 h1:xKAZ1T41qkL2ruX/2VcIrWqRaXljH/SdrYpT2s3s/ec=
 github.com/shanbay/machinery v0.0.0-20240507084232-78bfb8c2e7b1/go.mod h1:oJibs3otH55CKsd/2rOpgLAHlDG9FQy2/+zMkZlR8VY=
 github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24/go.mod h1:M+9NzErvs504Cn4c5DxATwIqPbtswREoFCre64PpcG4=
@@ -685,6 +681,10 @@ github.com/xdg-go/stringprep v1.0.2/go.mod h1:8F9zXuvzgwmyT5DUm4GUfZGDdT3W+LCvS6
 github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c/go.mod h1:lB8K/P019DLNhemzwFU4jHLhdvlE6uDZjXFejJXr49I=
 github.com/xdg/stringprep v0.0.0-20180714160509-73f8eece6fdc/go.mod h1:Jhud4/sHMO4oL310DaZAKk9ZaJ08SJfe+sJh0HrGL1Y=
 github.com/xdg/stringprep v1.0.0/go.mod h1:Jhud4/sHMO4oL310DaZAKk9ZaJ08SJfe+sJh0HrGL1Y=
+github.com/xhdnoah/go-redis/extra/rediscmd/v9 v9.0.0-20240927022319-f63692a90485 h1:Tl/2gpEXvkPm4uDzSuu7T01QEe+uDHFo7T/WHzcVMNM=
+github.com/xhdnoah/go-redis/extra/rediscmd/v9 v9.0.0-20240927022319-f63692a90485/go.mod h1:SGzPYn+57aRi8pgnS/IauR64lWhJhgWqIZH6IIfgEBU=
+github.com/xhdnoah/go-redis/extra/redisotel/v9 v9.0.0-20240927022319-f63692a90485 h1:Zu4T9Ju3ZSDCLFpclHm0o4vOJkV/qmlx/xw+SgyaE6c=
+github.com/xhdnoah/go-redis/extra/redisotel/v9 v9.0.0-20240927022319-f63692a90485/go.mod h1:INDsEOD4QyPk6Pm4JXWZvuDiChhtZa7PN60RSXljsbc=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d h1:splanxYIlg+5LfHAM6xpdFEAYOk8iySO56hMFq6uLyA=
 github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d/go.mod h1:rHwXgn7JulP+udvsHwJoVG1YGAP6VLg4y9I5dyZdqmA=
