@@ -76,7 +76,7 @@ jobs:
           go-version: ${{ matrix.go-version }}
       
       - name: Go mod package cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: $GOPATH/pkg/mod
           key: ${{ runner.os }}-go-${{ matrix.go-version }}-${{ hashFiles('**/go.sum') }}

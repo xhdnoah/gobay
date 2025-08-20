@@ -89,3 +89,7 @@ func (d *EntExt) Close() error { return d.client.Close() }
 func (d *EntExt) DB() *sql.DB {
 	return d.drv.DB()
 }
+
+func (d *EntExt) CheckHealth(ctx context.Context) error {
+	return d.DB().PingContext(ctx)
+}
