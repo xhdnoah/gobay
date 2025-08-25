@@ -66,3 +66,26 @@ func TestEnt(t *testing.T) {
 		t.Errorf("expected Err NotFound, got %v", err)
 	}
 }
+
+func TestEntExt_CheckHealth(t *testing.T) {
+	entExt := &EntExt{
+		NS: "db_",
+		NewClient: func(drvopt interface{}) Client {
+			return ent.NewClient(drvopt.(ent.Option))
+		},
+		Driver: func(drv dialect.Driver) interface{} {
+			return ent.Driver(drv)
+		},
+	}
+	exts := map[gobay.Key]gobay.Extension{
+		"entext": entExt,
+	}
+	_, err := gobay.CreateApp("../../testdata", "testing", exts)
+	if err != nil {
+		t.Errorf("create app error: %v", err)
+	}
+	err = entExt.CheckHealth(context.Background())
+	if err != nil {
+		t.Errorf("check health error: %v", err)
+	}
+}

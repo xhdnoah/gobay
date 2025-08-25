@@ -1,3 +1,7 @@
+# 1.2.6 (2025-08-20)
+
+- EntExt 新增 CheckHealth 方法
+
 # 1.2.5 (2024-12-16)
 
 - Tracing 基础设施同时保留 APM 和 OpenTelemetry 并由从 config 中读取配置改为从环境变量中读取
